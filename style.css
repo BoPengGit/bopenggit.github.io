@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +8,14 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #fff8dc; /* light yellow/cornsilk background */
   color: #333;
 }
 
 /* Header styling */
 header {
-  background: #35424a;
-  color: #fff;
+  background: #ffd700; /* bright yellow */
+  color: #333;
   padding: 20px 0;
   text-align: center;
 }
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   font-size: 16px;
 }
@@ -41,7 +41,7 @@ section {
   padding: 20px;
   margin: 20px auto;
   max-width: 800px;
-  background: #fff;
+  background: #fffacd; /* light yellow */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,6 +49,13 @@ section h2 {
   margin-bottom: 10px;
 }
 
+/* Styling for all occurrences of Bo */
+.bo {
+  font-size: 2.5em;  /* making Bo's name really huge */
+  font-weight: bold;
+}
+
+/* Project styling */
 .project {
   margin-bottom: 20px;
   padding-bottom: 10px;
@@ -57,8 +64,8 @@ section h2 {
 
 /* Footer styling */
 footer {
-  background: #35424a;
-  color: #fff;
+  background: #ffd700;
+  color: #333;
   text-align: center;
   padding: 10px 0;
 }
